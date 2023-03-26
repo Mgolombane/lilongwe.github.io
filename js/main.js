@@ -18,3 +18,7 @@ fetch('https://quotes15.p.rapidapi.com/quotes/random/', options)
     })
 
 	.catch(err => console.error(err));
+
+setTimeout(function(){
+   window.location.reload();
+}, 30000);
